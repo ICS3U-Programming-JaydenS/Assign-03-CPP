@@ -50,7 +50,7 @@ int main() {
         if ((main_course_option_float != main_course_option_int) ||
          (side_course_option_float!= side_course_option_int) ||
          (drink_option_float != drink_option_int) ) {
-            std::cout << "Please enter a valid menu option";
+            std::cout << "Please enter a valid menu option!";
             // If not the code continues as follows
         } else {
             // Switch case for what main course you picked and options for it
