@@ -30,7 +30,7 @@ int main() {
     float subtotal = 0;
 
     // User input for what their order is
-    std::cout << "Enter 1 for shawarma Wrap or 0 for shawarma Plate: ";
+    std::cout << "Enter 1 for Shawarma Wrap or 0 for Shawarma Plate: ";
     std::cin >> main_course_option;
 
     std::cout << "Enter 1 for meat side or 0 for vegetable side: ";
@@ -39,7 +39,7 @@ int main() {
     std::cout << "Enter 1 for a drink or 0 for no drink: ";
     std::cin >> drink_option;
     try {
-        // Tries to convert the ops into integers
+        // Tries to convert the options into integers
         int main_course_option_int = stoi(main_course_option);
         int side_course_option_int = stoi(side_course_option);
         int drink_option_int = stoi(drink_option);
