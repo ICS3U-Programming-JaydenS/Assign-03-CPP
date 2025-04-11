@@ -96,7 +96,7 @@ int main() {
     std::cout << "Total cost is: $" << std::fixed <<
      std::setprecision(2) << total << std::endl;
         }
-    // If the menu options a
+    // If the menu options are not ints this happens
     } catch (std::invalid_argument) {
     std::cout << "Please enter a valid option!";
     }
