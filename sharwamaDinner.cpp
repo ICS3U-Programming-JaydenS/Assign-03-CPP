@@ -30,7 +30,7 @@ int main() {
     float subtotal = 0;
 
     // User input for what their order is
-    std::cout << "Hello Welcome to Jayden's Dinner Calculator! \n ";
+    std::cout << "Hello! Welcome to Jayden's Dinner Calculator! \n ";
     std::cout << "Enter 1 for Shawarma Wrap or 0 for Shawarma Plate: ";
     std::cin >> main_course_option;
 
