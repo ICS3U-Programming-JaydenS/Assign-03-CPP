@@ -39,7 +39,7 @@ int main() {
     std::cout << "Enter 1 for a drink or 0 for no drink: ";
     std::cin >> drink_option;
     try {
-        // Tries to convert the options into integers
+        // Tries to convert the ops into integers
         int main_course_option_int = stoi(main_course_option);
         int side_course_option_int = stoi(side_course_option);
         int drink_option_int = stoi(drink_option);
